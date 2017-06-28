@@ -29,21 +29,11 @@ h2 {text-transform:uppercase;}
 }
 
 @keyframes panning {
-  0% {
-    background-position: 0% 0%;
-  }
-  25% {
-    background-position: 100% 100%;
-  }
-   50% {
-    background-position: 100% 0%;
-  }
-  75% {
-    background-position: 0 100%;
-  }
-  200% {
-    background-position: 0 0;
-  }
+  0% {background-position: 0% 0%;}
+  25% {background-position: 100% 100%;}
+  50% {background-position: 100% 0%;}
+  75% {background-position: 0% 100%;}
+  200% {background-position: 0% 0%;}
 }
 	
 .fullscreen-bg {
@@ -55,10 +45,15 @@ h2 {text-transform:uppercase;}
 	position: relative;
 	text-align: center;
     padding-top: 40px;
-	background: black url(images/21421177773_d897930f1b_k.jpg) no-repeat;
-  background-size: 200%;
-  animation: panning 50s infinite linear;
+	background:url(images/21421177773_d897930f1b_k.jpg) no-repeat center center #000;
+	background-size: 200%;
+	/* animation: panning 50s linear infinite; */
+	animation-name: panning;
+	animation-duration: 50s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
 }
+
 /*
 .fullscreen-bg::after {content: "";background: url(images/grid-overlay.png) repeat 0 0;display:block;width:100%;height:100%;position:absolute;left:0;top:0;z-index: -1;}
 */
