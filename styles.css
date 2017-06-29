@@ -79,8 +79,14 @@ h2 {text-transform:uppercase;}
 .wrapper li {margin:20px 0;}
 #benefits .col-md-6 {background: #ff652f;color:#fff;}
 
+.smallText {
+    font-size: 15px;
+}
 	
 .fullscreen-bg h1 {font-size:80px;color:#fff;text-align: center;padding:5px;text-shadow:1px 1px 2px #000;background: rgba(0,0,0,0.8);display: inline;line-height: 1.4;margin: 0 auto;box-shadow: 10px 0 0 rgba(0,0,0,0.8), -10px 0 0 rgba(0,0,0,0.8);}
+.fullscreen-bg h3 {font-size:40px;color:#fff;text-align: center;padding:5px;text-shadow:1px 1px 2px #000;background: rgba(0,0,0,0.8);display: inline;
+                   line-height: 1.4;margin: 0 auto;box-shadow: 10px 0 0 rgba(0,0,0,0.8), -10px 0 0 rgba(0,0,0,0.8);}
+
 .fullscreen-bg a {display:block;margin:0 auto;position: absolute;bottom: 0; left: 0; right: 0;background: #fff; padding: 15px;width:250px;z-index: 2;}
 .fullscreen-bg img {width:100%;}
 
@@ -162,6 +168,7 @@ h2 {text-transform:uppercase;}
 @media (max-width: 480px) {
 	body {font-size: 14px;}
 	.fullscreen-bg h1 {font-size:56px;}
+    .fullscreen-bg h3 {font-size:25px;}
 	.fullscreen-bg {animation: none;background-size: cover;background-position: center top;}
 	#donate h2 {font-size: 42px;}
 	#donate [class*='col-'] { padding-top: 30px; padding-bottom: 30px;}
