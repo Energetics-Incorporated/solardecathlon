@@ -126,7 +126,7 @@ div#blogTitle {
 
 .lead{font-size: 30px;}
 #donate [class*='col-'] {padding-top:60px;padding-bottom: 20px;}
-#blogTitle h1, #donate h2 {font-size:68px;font-weight:700;}
+#blogTitle h1, #donate h2, #sponsors h2 {font-size:68px;font-weight:700;}
 #blogTitle h1 {color: #fff;
     text-align: center;
     padding: 5px;
@@ -159,15 +159,16 @@ div#blogTitle {
     border-color: transparent;
 	color:#fff;
 }
-.navbar-default  a {color:#F8981C;font-size:18px;}
+.navbar-default  a {color:#F8981C;}
 .navbar-default .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a:focus, 
-.navbar-default .navbar-nav > li > a:hover  {color:#F8981C;}
+.navbar-default .navbar-nav > li > a:hover  {color:#F8981C;font-size:14px;}
 .navbar-default .navbar-brand {color: #fff;}
 .navbar-brand {padding: 15px 40px;}
 .navbar-default .navbar-brand:focus, 
 .navbar-default .navbar-brand:hover {color:inherit;background-color: transparent;}
 
+#publicEngagement {position:relative;}
 #publicEngagement .col-md-3 {font-size:14px;}
 #publicEngagement .first .col-md-3:nth-child(odd) {background:#ebebeb;}
 #publicEngagement .first .col-md-3:nth-child(even) {border:1px solid #eee;}
@@ -176,14 +177,100 @@ div#blogTitle {
 #publicEngagement .row:nth-child(1) {margin:50px 0;}
 
 
+#home #copyright {padding-top:100px;background-color:#e5ecf4;margin-top:0px;}
 #copyright {margin-top:100px;}
-
-
 
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
 .embed-container iframe, 
 .embed-container object, 
 .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.blog hr {border-width:15px;}
+
+div#sponsors {position:relative;margin:60px 0 0 0}
+div#sponsors h2 {margin-bottom:40px;}
+div#sponsors:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 73, 144, 0.1);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sponsorLogo {font-size:12px;display:inline-block;width:230px;list-style:none;text-align:center;vertical-align:top;margin:20px 36px;padding:0;height:70px;overflow:hidden;background-size:contain;background-repeat:no-repeat;text-indent:-9000px;background-position: 50% 50%;}
+#sponsor1{background-image:url(images/sponsors/ASES-logo-2C-Hstack.jpg);}
+#sponsor2{background-image:url(images/sponsors/American_Society_of_Heating,_Refrigerating_and_Air-Conditioning_Engineers_logo.jpg);}
+#sponsor3{background-image:url(images/sponsors/New_Beko_logo.svg.jpg);}
+#sponsor4{background-image:url(images/sponsors/CSTL.jpg);}
+#sponsor5{background-image:url(images/sponsors/ch2m.jpg);}
+#sponsor6{background-image:url(images/sponsors/DenverLogo.jpg);}
+#sponsor7{background-image:url(images/sponsors/ConfluenceCommunications.png);}
+#sponsor8{background-image:url(images/sponsors/d+r.jpg);}
+#sponsor9{background-image:url(images/sponsors/danby.jpg);}
+#sponsor10{background-image:url(images/sponsors/denverairport.jpg);}
+#sponsor11{background-image:url(images/sponsors/denverwater.jpg);}
+#sponsor12{background-image:url(images/sponsors/EnergyLogic.jpg);}
+#sponsor13{background-image:url(images/sponsors/Fulenwider.jpg);}
+#sponsor14{background-image:url(images/sponsors/globaltestsupply-img.png);}
+#sponsor15{background-image:url(images/sponsors/LMI_Masterbrand_H_RGB_2Color.jpg);}
+#sponsor16{background-image:url(images/sponsors/microplanet_logo_perfect3.png);}
+#sponsor17{background-image:url(images/sponsors/ModerninDenver.jpg);}
+#sponsor18{background-image:url(images/sponsors/NationalAssociationofHomeBuilders.png);}
+#sponsor19{background-image:url(images/sponsors/NationalChildrensTheaterGroup.png);}
+#sponsor20{background-image:url(images/sponsors/og-oxblue-logo.jpg);}
+#sponsor21{background-image:url(images/sponsors/2013_Panasonic_Only_Logo_Blue.jpg);}
+#sponsor22{background-image:url(images/sponsors/RSMeanLogo.jpg);}
+#sponsor23{background-image:url(images/sponsors/rtd-logo-red.jpg);}
+#sponsor24{background-image:url(images/sponsors/Schneider_Electric.svg_.jpg);}
+#sponsor25{background-image:url(images/sponsors/SolarNovusToday.jpg);}
+#sponsor26{background-image:url(images/sponsors/Thrive-Logo.jpg);}
+#sponsor27{background-image:url(images/sponsors/vaisala.logo.png);}
+#sponsor28{background-image:url(images/sponsors/VisitDenver.png);}
+#sponsor29{background-image:url(images/sponsors/WAC_Logo.jpg);}
+#sponsor30{background-image:url(images/sponsors/1200px-Wells_Fargo_Bank.svg.jpg);}
+#sponsor31{background-image:url(images/sponsors/WestinDenverInternationalAirportandPSAV.jpg);}
+#sponsor32{background-image:url(images/sponsors/WillisTowersWatson.png);}
+#sponsor33{background-image:url(images/sponsors/Xcel_Energy_logo_logotype.jpg);}
+/*
+sponsor1	American Solar Energy Society
+sponsor2	ASHRAE
+sponsor3	Beko
+sponsor4	Center for Science Teaching and Learning
+sponsor5	CH2M
+sponsor6	City and County of Denver
+sponsor7	Confluence Communications
+sponsor8	D+R International 
+sponsor9	Danby
+sponsor10	Denver International Airport
+sponsor11	Denver Water
+sponsor12	Energy Logic 
+sponsor13	Fulenwider
+sponsor14	Global Test Supply
+sponsor15	Liberty Mutual Insurance
+sponsor16	MicroPlanet
+sponsor17	Modern in Denver
+sponsor18	National Association of Home Builders  
+sponsor19	National Children’s Theater Group
+sponsor20	Ox Blue
+sponsor21	Panasonic Enterprise Solutions
+sponsor22	RS Means
+sponsor23	RTD
+sponsor24	Schneider Electric
+sponsor25	Solar Novus Today
+sponsor26	Thrive Home Builders
+sponsor27	Vaisala
+sponsor28	Visit Denver
+sponsor29	WAC Lighting
+sponsor30	Wells Fargo
+sponsor31	Westin Denver International Airport & PSAV
+sponsor32	Willis Towers Watson
+sponsor33	Xcel Energy
+ 
+
+*/
+
 
 @media (max-width: 768px) {
 	body {border: 0;}
@@ -212,9 +299,10 @@ div#blogTitle {
 @media (max-width: 480px) {
 	body {font-size: 14px;}
 	.fullscreen-bg h1 {font-size:56px;}
+	#home .fullscreen-bg h1 {font-size:63px;}
     .fullscreen-bg h3 {font-size:25px;}
 	.fullscreen-bg {animation: none;background-size: cover;background-position: center top;}
-	#donate h2 {font-size: 42px;}
+	#donate h2, #sponsors h2 {font-size: 42px;}
 	#donate [class*='col-'] { padding-top: 30px; padding-bottom: 30px;}
 	ul {padding-left: 15px;}
 	#publicEngagement .first .col-md-3:nth-child(odd) {background:#fff;}
@@ -223,4 +311,5 @@ div#blogTitle {
 	#publicEngagement .second .col-md-3:nth-child(odd) {border:0;}
 	
 	#publicEngagement .row:nth-child(1){margin: 0;}
+	.sponsorLogo {width:100px;height:30px;margin:10px;}
 }
