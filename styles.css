@@ -117,12 +117,13 @@ div#blogTitle {
     font-size: 15px;
 }
 	
-#home .fullscreen-bg h1 {font-size:80px;color:#fff;text-align: center;padding:5px;text-shadow:1px 1px 2px #000;background: rgba(0,0,0,0.8);display: inline;line-height: 1.4;margin: 0 auto;box-shadow: 10px 0 0 rgba(0,0,0,0.8), -10px 0 0 rgba(0,0,0,0.8);}
+#home .fullscreen-bg h1 {font-size:80px;color:#fff;text-align: center;padding:5px;text-shadow:1px 1px 2px #000;background: rgba(0,0,0,0.8);display: inline;line-height: 1.4;margin: 0 auto;box-shadow: 10px 0 0 rgba(0,0,0,0.8), -10px 0 0 rgba(0,0,0,0.8);text-transform:uppercase;letter-spacing:-3px;}
+
 #home .fullscreen-bg h3 {font-size:40px;color:#fff;text-align: center;padding:5px;text-shadow:1px 1px 2px #000;background: rgba(0,0,0,0.8);display: inline;
                    line-height: 1.4;margin: 0 auto;box-shadow: 10px 0 0 rgba(0,0,0,0.8), -10px 0 0 rgba(0,0,0,0.8);}
-#home .fullscreen-bg span {display:block;font-size:18px;color:#fff;text-shadow:1px 1px 2px #000;}				   
+#home #scrollMsg {display:block;font-size:18px;color:#fff;text-shadow:1px 1px 2px #000;}				   
 
-#home .fullscreen-bg a {display:block;margin:0 auto;position: absolute;bottom: 0; left: 0; right: 0;background: #fff; padding: 15px;width:250px;z-index: 2;}
+#solardecathlonLink {display:block;margin:0 auto;position: absolute;bottom: 0; left: 0; right: 0;background: #fff; padding: 15px;width:250px;z-index: 2;height:53px;}
 #home .fullscreen-bg img {width:100%;}
 
 .lead{font-size: 30px;}
