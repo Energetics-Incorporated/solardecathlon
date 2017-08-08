@@ -41,8 +41,8 @@
         </div><!-- /.container-fluid -->
     </nav>
     <div class="fullscreen-bg">
-        <h1>The Solar Decathlon is coming to<br>Denver in October 2017!</h1><br />
-        <h3>(scroll down)</h3>
+        <h1>The Solar Decathlon is coming to<br>Denver in October 2017!</h1>
+        
         <a href="https://www.solardecathlon.gov" target="_blank"><img src="images/solardecathlon-logo.png" alt="Logo for U.S. Department of Energy Solar Decathlon"></a>
     </div>
     <div class="container" id="donate">
@@ -50,14 +50,15 @@
             <div class="col-md-12 col-md-offset-0">
                 <h2 class="text-center">
                     <a href="https://twitter.com/hashtag/supportsolar?src=hash" target="_blank"><span style="color:#F8981C;">#</span><span style="color: #004990;">SUPPORT</span><span style="color:#F8981C;">SOLAR</span></a>
-                    <br>JOIN FORCES WITH THE<br>U.S. DEPARTMENT OF ENERGY
+                    <br>YOU CAN HELP
                 </h2>
+				<p class="text-center"><a href="https://www.cstl.org/support-solar/" class="btn btn-default btn-lg text-center"><span>DONATE NOW</span> to support Solar Decathlon</a></p>
                 <p class="lead">The U.S. Department of Energy Solar Decathlon is a life-changing competition that challenges teams of collegiate students to design and build full-size, solar-powered houses. The completed houses demonstrate a wide range of innovative efficiency, smart home, and solar technologies, showing consumers how easy and enjoyable it can be to make sustainable choices that save energy, water, and money.</p>
                 <p>This event highlights today’s most exciting and innovative clean energy technologies while building the next generation of American clean energy innovators. The students who conceive, design, and build these homes are our future engineers, architects, and entrepreneurs, who will lead us into a sustainable future.</p>
                 <p>To make this event a success, we need <strong>you</strong> to show your support! Invest to support the next generation of U.S. clean energy leaders.</p>
                 <div class="row">
                     <div class="col-md-12" id="cta">
-                        <p class="text-center"><a href="https://www.cstl.org/support-solar/" class="btn btn-default btn-lg text-center"><span>DONATE NOW</span> to support Solar Decathlon</a></p>
+                        
                         <p class="text-center smallText">Your contribution to the Solar Decathlon is tax deductible.</p>
 
                         <p class="center-block text-center">
@@ -98,7 +99,7 @@
             <div class="col-md-6 matchHeight">
                 <div class="wrapper">
                     <h2>Benefits</h2>
-                    <p class="lead">Solar Decathlon is a great opportunity to get involved in renewable energy, energy efficiency, and sustainability in the Front Range and Denver, as well as a national and international playing field.</p>
+                    <p class="lead">Solar Decathlon is a great opportunity for you to get involved in renewable energy, energy efficiency, and sustainability in the Front Range and Denver, as well as a national and international playing field.</p>
                     <ul>
                         <li>Take pride in supporting the U.S. clean energy economy.</li>
                         <li>Empower the next generation of clean energy innovators.</li>
@@ -323,6 +324,8 @@
 
 
         });
+		
+		$("#home .fullscreen-bg h1").after("<span>(scroll down)</span>");
 
         smoothScroll.init({
             offset: 20
