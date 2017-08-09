@@ -295,7 +295,7 @@ sponsor33	Xcel Energy
     object-fit: cover;
     object-position: 25% 50%;
     overflow: hidden;}
-	
+	#home .fullscreen-bg h1 br{display:none;}
 }
 @media (max-width: 480px) {
 	body {font-size: 14px;}
