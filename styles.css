@@ -150,6 +150,83 @@ div#blogTitle {
 #cta .btn-lg {font-size:28px;}
 #cta .btn-social {margin:10px 0;}
 
+#donate {position: relative;}
+
+/* #donationsWrap {position:fixed;top:0;left:0;width:200px;border:1px solid red;} */
+#donationsWrap {padding:10px 0;}
+#donationsWrap ul {margin:0;padding:0;}
+#donationsWrap li { list-style: none;
+    padding: 25px 10px;
+    margin:1px 0;
+    background: #ebebeb;
+	position:relative;
+	background-image: url("data:image/svg+xml,%3Csvg width='12' height='24' viewBox='0 0 12 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
+    box-shadow: -7px 7px 0px #ccc;}
+/*#donationsWrap li:after {
+    content: "";
+    display: block;
+    width: 1px;
+    position: absolute;
+    background: #000;
+    border: 1px solid #ccc;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 45px;
+    z-index: 1;
+}	*/
+span.name {    
+    font-weight: 700;
+}
+#donationsWrap i.fa.fa-sun-o {display: block;padding-right: 5px;color: #f8981c;float:left;height:47px;padding-top:5px;}
+span.amount {
+    display: block;
+	text-align: right;
+    vertical-align: top;
+    float: right;
+}
+span.date {
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+/*
+.foo {
+  position: relative;
+  display: inline-block;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  persepctive: 1000px;
+  margin: 20px;
+  margin-top: 50px;
+}
+.foo .box {
+  transform: rotateY(-40deg);
+  height: 80px;
+  width: 250px;
+  background-color: #004990;
+  position:absolute;
+  left:-39px;
+  top:0;
+  z-index:1;
+  
+}
+.foo:before {
+  content: "";
+  top: -6px;
+  position: absolute;
+  width: 42px;
+  height: 88px;
+  background-color: #023669;
+  transform: translateX(215px) translateY(2.7px) rotateY(55deg);
+  left:-36px;
+}
+.donateInfo {position:relative;z-index:2;color:#fff;width:170px;}
+*/
+
+
 #denver {background: #7ED246;color:#000;}
 
 .navbar-fixed-top {
