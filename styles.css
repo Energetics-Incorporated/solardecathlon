@@ -154,7 +154,14 @@ div#blogTitle {
 
 /* #donationsWrap {position:fixed;top:0;left:0;width:200px;border:1px solid red;} */
 #donationsWrap {padding:10px 0;}
-#donationsWrap ul {margin:0;padding:0;}
+#ticker {width:auto;height: 700px; overflow-y:hidden; overflow-x:visible;}
+#donationsWrap ul {margin:0;padding:0 0 0 5px;}
+#donationsWrap ul {animation: marquee 9s linear infinite;  animation-direction: alternate;}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(0, -287px); }
+}
+
 #donationsWrap li { list-style: none;
     padding: 25px 10px;
     margin:1px 0;
