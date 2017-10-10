@@ -305,7 +305,7 @@ div#sponsors:after {
 #sponsor14{background-image:url(images/sponsors/globaltestsupply-img.png);}
 #sponsor15{background-image:url(images/sponsors/LMI_Masterbrand_H_RGB_2Color.jpg);}
 #sponsor16{background-image:url(images/sponsors/microplanet_logo_perfect3.png);}
-#sponsor17{background-image:url(images/sponsors/ModerninDenver.jpg);}
+#sponsor17{background-image:url(images/sponsors/ModerninDenver.jpg);    background-size: cover;}
 #sponsor18{background-image:url(images/sponsors/NationalAssociationofHomeBuilders.png);}
 #sponsor19{background-image:url(images/sponsors/NationalChildrensTheaterGroup.png);}
 #sponsor20{background-image:url(images/sponsors/og-oxblue-logo.jpg);}
@@ -322,6 +322,41 @@ div#sponsors:after {
 #sponsor31{background-image:url(images/sponsors/WestinDenverInternationalAirportandPSAV.jpg);}
 #sponsor32{background-image:url(images/sponsors/WillisTowersWatson.png);}
 #sponsor33{background-image:url(images/sponsors/Xcel_Energy_logo_logotype.jpg);}
+#sponsor34{background-image:url(images/sponsors/9news.jpg);}
+#sponsor35{background-image:url(images/sponsors/BronsterFujichakuandRobbins.jpg);background-size: cover;}
+#sponsor36{background-image:url(images/sponsors/Exelonlogo2012.jpg);}
+#sponsor37{background-image:url(images/sponsors/jacobs.jpg);}
+#sponsor38{background-image:url(images/sponsors/jmfLogo.jpg);}
+#sponsor39{background-image:url(images/sponsors/Killick.jpg);}
+#sponsor40{background-image:url(images/sponsors/Nema.jpg);}
+#sponsor41{background-image:url(images/sponsors/nolan.jpg);background-size: cover;}
+#sponsor42{background-image:url(images/sponsors/Fc2rSmD_.jpg);}
+#sponsor43{background-image:url(images/sponsors/reedinstruments.jpg);}
+#sponsor44{background-image:url(images/sponsors/SEI-stacked_logo.jpg);}
+#sponsor45{background-image:url(images/sponsors/STN_logo_color-WhiteBG-1024x389_063016-300x114.jpg);}
+#sponsor46{background-image:url(images/sponsors/viva.jpg);background-size: 114px;}
+#sponsor47{background-image:url(images/sponsors/WeWork-Logo_copy.jpg);}
+
+
+/* 
+34	" class="sponsorLogo">	9 News
+35	" class="sponsorLogo">	Bronster, Fujichaku and Robbins 
+36	" class="sponsorLogo">	Exelon
+37	" class="sponsorLogo">	Jacobs Engineering
+38	" class="sponsorLogo">	Jonathan Merage Foundation
+39	" class="sponsorLogo">	Killick Aerospace
+40	" class="sponsorLogo">	National Electrical Manufacturers Association
+41	" class="sponsorLogo">	Nolan Financial Group
+42	" class="sponsorLogo">	Peet's Coffee
+43	" class="sponsorLogo">	REED Instruments
+44	" class="sponsorLogo">	Solar Energy International
+45	" class="sponsorLogo">	Solar Training Network
+46	" class="sponsorLogo">	Viva Green Homes
+47	" class="sponsorLogo">	WeWork
+
+
+*/
+
 /*
 sponsor1	American Solar Energy Society
 sponsor2	ASHRAE
